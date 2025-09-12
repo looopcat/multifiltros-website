@@ -151,47 +151,54 @@
 
 
   <section id="fondo">
-
-
+<footer id="footer">
   <div class="footer-container">
-    <!-- Logo -->
-    <div class="footer-logo">
-      <img src="img/multifiltros logo final transparent.png" alt="Multifiltros Logo">
-
+    <!-- Columna 1: Logo -->
+    <div class="footer-col footer-logo-col">
+      <img src="img/multifiltros logo final transparent.png" alt="Multifiltros Logo" class="footer-logo">
     </div>
 
-    <!-- Ubicación -->
-    <div class="footer-location">
+    <!-- Columna 2: Ubicación -->
+    <div class="footer-col footer-location">
+      <h4>Ubicación</h4>
       <p><strong>Puerto Montt</strong></p>
       <p>Avenida Circunvalación 241</p>
       <p>Población Presidente Ibáñez</p>
-      <a href="https://www.google.com/maps?q=Avenida+Circunvalacion+241,+Puerto+Montt" target="_blank"><p><strong>Ver en Google Maps</strong></p></a>
+      <p><a href="https://www.google.com/maps?q=Avenida+Circunvalacion+241,+Puerto+Montt" target="_blank" rel="noopener">Ver en Google Maps</a></p>
     </div>
 
-    <!-- Contacto-->
-    <div class="footer-contact">
-      <p><strong>correo:</strong> <br>
-      <a href="mailto:multifiltros1@gmail.com">multifiltros1@gmail.com</a></p>
-      <p><strong>Teléfono:</strong> <br>
-      <a href="tel:+56953080171">+56 9 5308 0171</a></p>
+    <!-- Columna 3: Contacto -->
+    <div class="footer-col footer-contact">
+      <h4>Contacto</h4>
+      <p><strong>Correo:</strong><br><a href="mailto:multifiltros1@gmail.com">multifiltros1@gmail.com</a></p>
+      <p><strong>Teléfono:</strong><br><a href="tel:+56953080171">+56 9 5308 0171</a></p>
     </div>
-    <!--Redes -->
-     <div>
-      <p><strong>Encuéntranos en:</strong></p>
-      <a href="http://www.instagram.com/multifiltrospuertomontt"><img src="img/instagramLogo.png" alt="instagram logo" class="socialLogo"></a>  <a href="https://www.facebook.com/p/Multifiltros-Puerto-Montt-100083068965662/"><img src="img/facebookLogo.png" class="socialLogo"></a>
-    </div>
-    
-    <!-- Legal-->
-    <div class="footer-right">
-      <ul class="footer-links">
-          <p><a href="javascript:void(0)" onclick="openModal('terminos')">Términos y Condiciones</a></p></li>
-          <p><a href="javascript:void(0)" onclick="openModal('privacidad')">Política de Privacidad</a></p></li>
-          <p><a href="javascript:void(0)" onclick="openModal('legal')">Información Legal</a></p></li>
-      </ul>
+
+    <!-- Columna 4: Redes -->
+    <div class="footer-col footer-social">
+      <h4>Encuéntranos</h4>
+      <div class="social-icons">
+        <a href="http://www.instagram.com/multifiltrospuertomontt" target="_blank" rel="noopener">
+          <img src="img/instagramLogo.png" alt="Instagram" class="social-logo">
+        </a>
+        <a href="https://www.facebook.com/p/Multifiltros-Puerto-Montt-100083068965662/" target="_blank" rel="noopener">
+          <img src="img/facebookLogo.png" alt="Facebook" class="social-logo">
+        </a>
       </div>
-
     </div>
-  </footer>
+
+    <!-- Columna 5: Legal -->
+    <div class="footer-right">
+  <ul class="footer-links">
+    <li><a href="javascript:void(0)" onclick="openModal('terminos')">Términos y Condiciones</a></li>
+    <li><a href="javascript:void(0)" onclick="openModal('privacidad')">Política de Privacidad</a></li>
+    <li><a href="javascript:void(0)" onclick="openModal('legal')">Información Legal</a></li>
+  </ul>
+</div>
+  </div>
+</footer>
+
+
   <!-- Modal Términos -->
 <div id="terminos" class="modal">
   <div class="modal-content">
